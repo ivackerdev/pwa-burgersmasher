@@ -3,30 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>App Burgersmasher</title>
+    <title>Burger Smashers | Smash it!</title>
     <link rel="manifest" href="/manifest.json">
-    <link rel="stylesheet" href="/style.css">
+  
+    <style>
+        /* Estilos básicos para la cabecera y el menú */
+        .navbar {
+            background-color: #fef100; /* Color de fondo amarillo */
+            color: #000000; /* Texto en color negro */
+            padding: 10px 0; /* Espaciado interno */
+            text-align: center; /* Centrar los elementos del menú */
+            position: relative; /* Posicionamiento relativo para posicionar el logo */
+        }
+        .navbar img.logo {
+            position: absolute; /* Posicionamiento absoluto del logo */
+            left: 10px; /* Espaciado desde el lado izquierdo */
+            top: 50%; /* Centrado vertical */
+            transform: translateY(-50%); /* Ajuste fino del centrado vertical */
+            height: 50px; /* Altura del logo */
+        }
+        .navbar a {
+            color: #000000; /* Color del texto de los enlaces */
+            text-decoration: none; /* Remover el subrayado de los enlaces */
+            margin: 0 15px; /* Margen entre los enlaces */
+            font-family: 'Arial', sans-serif; /* Tipo de fuente */
+            font-size: 20px; /* Tamaño del texto */
+        }
+        .navbar a:hover {
+            color: #555; /* Cambiar el color del texto al pasar el mouse */
+        }
+    </style>
 </head>
 <body>
-
-
-
     
-    <img src="ima/logo-150-150.png" alt="Burgersmasher" width="150" height="150">
-</br>
-    <h1>Bienvenido Burgersmasher App</h1>
-</br>
-    
+    <div style="text-align: center;">
+        <img src="https://tofuu.getjusto.com/orioneat-local/resized2/GBRgC67QLhxhSwvnb-200-x.webp" alt="Burger Smashers Logo" class="logo"> 
+    </div>
 
-    <button id="launchButton">Pedir</button>
-
-    <script src="app.js"></script>
-
-    <script>
-    document.getElementById('launchButton').addEventListener('click', function() {
-        window.location.href = 'https://www.burgersmasher.cl/pedir';
-    });
-    </script>
-
+    <br>
+    <div class="navbar">
+        <a href="https://www.burgersmasher.cl/pedir">PEDIR</a>
+        <a href="https://www.burgersmasher.cl/contacto">CONTACTO</a>
+        <a href="https://www.burgersmasher.cl/local">LOCAL</a>
+    </div>
 </body>
 </html>
