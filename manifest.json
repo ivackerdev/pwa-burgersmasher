@@ -1,0 +1,22 @@
+{
+    "short_name": "App Burgersmasher",
+    "name": "App Burgersmasher",
+    "icons": [
+      {
+        "src": "ima/logo-150-150.png",
+        "type": "image/png",
+        "sizes": "150x150"
+      },
+      {
+        "src": "ima/logo-150-150.png",
+        "type": "image/png",
+        "sizes": "256x256"
+      }
+    ],
+    "start_url": "/",
+    "background_color": "#FFFFFF",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#FFFFFF"
+  }
+  
